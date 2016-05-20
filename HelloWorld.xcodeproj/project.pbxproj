@@ -15,6 +15,7 @@
 		9788C3741CED83DE00EA3055 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788C3731CED83DE00EA3055 /* HelloWorldTests.swift */; };
 		9788C37F1CED83DE00EA3055 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788C37E1CED83DE00EA3055 /* HelloWorldUITests.swift */; };
 		97D5DE381CEDBA4F00743E6A /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D5DE371CEDBA4F00743E6A /* StackViewController.swift */; };
+		97DA16291CEEDFC6000BB9F6 /* CellImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA16281CEEDFC6000BB9F6 /* CellImage.swift */; };
 		97E0399F1CEDD18E001845F3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0399E1CEDD18E001845F3 /* TableViewController.swift */; };
 		97E039A11CEDDC2F001845F3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E039A01CEDDC2F001845F3 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		9788C37E1CED83DE00EA3055 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		9788C3801CED83DE00EA3055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97D5DE371CEDBA4F00743E6A /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		97DA16281CEEDFC6000BB9F6 /* CellImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellImage.swift; sourceTree = "<group>"; };
 		97E0399E1CEDD18E001845F3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		97E039A01CEDDC2F001845F3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 			children = (
 				97E0399E1CEDD18E001845F3 /* TableViewController.swift */,
 				97E039A01CEDDC2F001845F3 /* TableViewCell.swift */,
+				97DA16281CEEDFC6000BB9F6 /* CellImage.swift */,
 			);
 			name = TableViewDemo;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				97E039A11CEDDC2F001845F3 /* TableViewCell.swift in Sources */,
 				97D5DE381CEDBA4F00743E6A /* StackViewController.swift in Sources */,
 				9788C3611CED83DD00EA3055 /* ViewController.swift in Sources */,
+				97DA16291CEEDFC6000BB9F6 /* CellImage.swift in Sources */,
 				9788C35F1CED83DD00EA3055 /* AppDelegate.swift in Sources */,
 				97E0399F1CEDD18E001845F3 /* TableViewController.swift in Sources */,
 			);
