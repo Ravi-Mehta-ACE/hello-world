@@ -14,14 +14,29 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="lz2-ut-Wb2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lz2-ut-Wb2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0GD-Lz-Qoc"/>
+                            <constraint firstAttribute="trailing" secondItem="lz2-ut-Wb2" secondAttribute="trailing" id="4Jn-09-dbj"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lz2-ut-Wb2" secondAttribute="bottom" id="ie8-7X-9Aj"/>
+                            <constraint firstItem="lz2-ut-Wb2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="o7Q-W8-3sh"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="423" y="369"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Launch Screen.png" width="750" height="1334"/>
+    </resources>
 </document>
